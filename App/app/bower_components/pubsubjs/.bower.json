@@ -1,0 +1,22 @@
+{
+  "name": "pubsubjs",
+  "version": "0.3.5",
+  "main": "./pubsub.js",
+  "dependencies": {},
+  "ignore": [
+    "test/",
+    "sample/",
+    "node_modules/"
+  ],
+  "homepage": "https://github.com/nazomikan/PubsubJS",
+  "_release": "0.3.5",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.3.5",
+    "commit": "14cf098653c4b69145567053f949524919f2bd23"
+  },
+  "_source": "git://github.com/nazomikan/PubsubJS.git",
+  "_target": "~0.3.5",
+  "_originalSource": "pubsubjs",
+  "_direct": true
+}

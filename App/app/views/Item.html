@@ -1,0 +1,18 @@
+<div class="row">
+    <div class="thumbnail">
+        <img ng-src="{{item.image}}" alt="{{item.name}}">
+        <div class="caption">
+            <h2>{{item.name}}
+                <small class="pull-right">
+                    Categoria:<a href="#/category/{{item.category}}">{{item.category}}</a>
+                </small>
+            </h2>
+        </div>
+        <p class="col-mg-12">{{item.description}}</p>
+        <ul class="list-group">
+            <li ng-repeat="ingredient in item.ingredients" class="list-group-item">
+                <small>{{ingredient.quantity}} {{ingredient.unity}} de </small>{{ingredient.name}}</li>
+        </ul>
+
+    </div>
+</div>

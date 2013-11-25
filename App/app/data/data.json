@@ -1,0 +1,276 @@
+{
+	"success": true,
+	"message": null,
+	"data": [
+		{
+			"key": "r_0",
+			"name": "Limonada Adah Macejkovic",
+			"description": "Assimilated responsive process improvement",
+			"category": "simples",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_1",
+					"name": "Ashtyn",
+					"quantity": "2",
+					"unity": "unidades"
+				},
+				{
+					"key": "i_2",
+					"name": "Sibyl",
+					"quantity": "4",
+					"unity": "gota"
+				},
+				{
+					"key": "i_3",
+					"name": "Rod",
+					"quantity": "8",
+					"unity": "mg"
+				},
+				{
+					"key": "i_4",
+					"name": "Kevin",
+					"quantity": "7",
+					"unity": "colher de chá"
+				},
+				{
+					"key": "i_5",
+					"name": "Jarret",
+					"quantity": "9",
+					"unity": "gota"
+				},
+				{
+					"key": "i_6",
+					"name": "Betsy",
+					"quantity": "1",
+					"unity": "gota"
+				}
+			]
+		},
+		{
+			"key": "r_7",
+			"name": "Limonada Adele Kutch",
+			"description": "Expanded logistical monitoring",
+			"category": "alternativa",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_8",
+					"name": "Ashlynn",
+					"quantity": "9",
+					"unity": "colher de sopa"
+				},
+				{
+					"key": "i_9",
+					"name": "Destin",
+					"quantity": "2",
+					"unity": "unidades"
+				}
+			]
+		},
+		{
+			"key": "r_10",
+			"name": "Limonada Deion Wilderman",
+			"description": "Synchronised bottom-line framework",
+			"category": "alternativa",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_11",
+					"name": "Dayton",
+					"quantity": "4",
+					"unity": "xícara"
+				},
+				{
+					"key": "i_12",
+					"name": "Sydni",
+					"quantity": "3",
+					"unity": "gota"
+				},
+				{
+					"key": "i_13",
+					"name": "Estefania",
+					"quantity": "1",
+					"unity": "unidades"
+				},
+				{
+					"key": "i_14",
+					"name": "Trent",
+					"quantity": "6",
+					"unity": "xícara"
+				},
+				{
+					"key": "i_15",
+					"name": "Carrie",
+					"quantity": "8",
+					"unity": "xícara"
+				}
+			]
+		},
+		{
+			"key": "r_16",
+			"name": "Limonada Vilma Bins",
+			"description": "Persistent maximized internet solution",
+			"category": "alternativa",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_17",
+					"name": "Joany",
+					"quantity": "4",
+					"unity": "gota"
+				},
+				{
+					"key": "i_18",
+					"name": "Rebeca",
+					"quantity": "4",
+					"unity": "mg"
+				},
+				{
+					"key": "i_19",
+					"name": "Filomena",
+					"quantity": "4",
+					"unity": "mg"
+				},
+				{
+					"key": "i_20",
+					"name": "Dina",
+					"quantity": "7",
+					"unity": "xícara"
+				},
+				{
+					"key": "i_21",
+					"name": "Layne",
+					"quantity": "10",
+					"unity": "gota"
+				}
+			]
+		},
+		{
+			"key": "r_22",
+			"name": "Limonada Jody Tremblay",
+			"description": "Ergonomic disintermediate portal",
+			"category": "diet/light",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_23",
+					"name": "Providenci",
+					"quantity": "8",
+					"unity": "unidades"
+				},
+				{
+					"key": "i_24",
+					"name": "Lorenza",
+					"quantity": "10",
+					"unity": "mg"
+				},
+				{
+					"key": "i_25",
+					"name": "Lilyan",
+					"quantity": "2",
+					"unity": "gota"
+				},
+				{
+					"key": "i_26",
+					"name": "Burley",
+					"quantity": "4",
+					"unity": "colher de sopa"
+				},
+				{
+					"key": "i_27",
+					"name": "Tina",
+					"quantity": "5",
+					"unity": "gota"
+				},
+				{
+					"key": "i_28",
+					"name": "Kyler",
+					"quantity": "7",
+					"unity": "colher de chá"
+				}
+			]
+		},
+		{
+			"key": "r_29",
+			"name": "Limonada Lon Wintheiser DVM",
+			"description": "Synergistic actuating monitoring",
+			"category": "simples",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_30",
+					"name": "Melissa",
+					"quantity": "9",
+					"unity": "gota"
+				},
+				{
+					"key": "i_31",
+					"name": "Damien",
+					"quantity": "4",
+					"unity": "mg"
+				}
+			]
+		},
+		{
+			"key": "r_32",
+			"name": "Limonada Imani Greenfelder",
+			"description": "Programmable needs-based policy",
+			"category": "simples",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_33",
+					"name": "Albina",
+					"quantity": "10",
+					"unity": "xícara"
+				},
+				{
+					"key": "i_34",
+					"name": "Edyth",
+					"quantity": "2",
+					"unity": "colher de chá"
+				},
+				{
+					"key": "i_35",
+					"name": "Katelyn",
+					"quantity": "5",
+					"unity": "colher de sopa"
+				}
+			]
+		},
+		{
+			"key": "r_36",
+			"name": "Limonada Shawna Pfannerstill",
+			"description": "Open-architected hybrid intranet",
+			"category": "alternativa",
+			"image": "http://placekitten.com/600/600",
+			"ingredients": [
+				{
+					"key": "i_37",
+					"name": "Colton",
+					"quantity": "4",
+					"unity": "unidades"
+				},
+				{
+					"key": "i_38",
+					"name": "Collin",
+					"quantity": "7",
+					"unity": "colher de sopa"
+				},
+				{
+					"key": "i_39",
+					"name": "Alvera",
+					"quantity": "4",
+					"unity": "unidades"
+				},
+				{
+					"key": "i_40",
+					"name": "Gavin",
+					"quantity": "3",
+					"unity": "colher de sopa"
+				}
+			]
+		}
+	]
+}

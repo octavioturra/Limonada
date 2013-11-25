@@ -1,0 +1,109 @@
+item
+	key
+	nome
+	[ingredientes]
+	foto
+	descrição
+	[passo de preparo]
+	[categoria]
+
+CategoryCtrl()	
+	listCategories()
+
+Main([category])
+	listItens([category])
+	findItens(keyword)
+	lastItens()
+	newItens()
+
+Datamon()
+	compareChangeset()
+	update()
+	load()
+	getData()
+	searchByFuzzy(keyword)
+	searchByKey(key)
+
+
+ItemCtrl(key)
+	key
+	show()
+
+
+var deferred = $q.defer();
+            $http.get('/data/data.json').success(function (d) {
+                deferred.notify(d);
+                if (d.success === false) {
+                    deferred.reject(d.message);
+                }   
+                deferred.resolve(d.data);
+            });
+            return deferred.promise;
+
+// Initialize the controller and a mock scope
+    // beforeEach(inject(function ($controller, $rootScope, $httpBackend) {
+        // scope = $rootScope.$new();
+        // http = $httpBackend;
+        // MainCtrl = $controller('MainCtrl', {
+            // $scope: scope
+        // });
+        // http.when('GET', '/data').respond({
+            // success: true,
+            // data: [{
+                // name: 'limonada',
+                // category: 'basico'
+                // }, {
+                // name: 'limonada s/ açucar',
+                // category: 'light'
+                // }]
+        // });
+    // }));
+    // it('should have a list category function', function () {
+        // expect(typeof (scope.listCategories)).toBe('function');
+    // });
+    // it('Should list cateories', function () {
+        // scope.listCategories();
+        // http.flush();
+        // expect(scope.categories.length).toBe(2);
+    // });
+    // it('should have a list by category function', function () {
+        // expect(typeof (scope.listByCategory)).toBe('function');
+    // });
+    // it('Should list itens in a category', function () {
+        // scope.categoryToSearch = 'light';
+        // scope.listByCategory();
+        // http.flush();
+        // expect(scope.categories.length).toBe(1);
+    // });
+    // it('Should return all itens in case of empty category', function () {
+        // scope.categoryToSearch = ''
+        // scope.listByCategory();
+        // http.flush();
+        // expect(scope.categories.length).toBe(2);
+    // });
+    // it('Should list itens by name', function () {
+        // scope.categoryToSearch = '';
+        // scope.listByCategory();
+        // http.flush();
+        // expect(scope.categories[1].name).toBe('limonada s/ açucar');
+    // });
+
+// it('should exists', function () {
+        // expect( !! Datamon).toBe(true);
+    // });
+    // it('should has a method "load"', function () {
+        // expect(typeof (Datamon.load)).toBe('function');
+    // });
+    // it('should return data after load been called', function(){
+         // http.when('GET', '/data').respond({
+            // success: true,
+            // data: [{
+                    // name: 'limonada',
+                    // category : 'comum'
+                // }]
+        // });
+        // Datamon.load().then(function(d){
+            // expect(d.length).toBe(1);
+        // });
+        // http.flush();
+    // });

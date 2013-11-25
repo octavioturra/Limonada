@@ -1,0 +1,33 @@
+{
+    "success":true,
+    "message":null,
+    "data":[
+        {
+        "name":"Limonada {{Lorem.words}}",
+        "description":"{{Lorem.paragraph}}",
+        "category":"{{Lorem.word}}",
+        "image":"http://www.placekitten.com/600/600",
+        "ingredients":[
+            {
+                "key":1,
+                "name":"Limao",
+                "quantity":{{random.number(10)}},
+                "unity":"unidades"
+            },
+            {
+                "key":9,
+                "name":"Açúcar",
+                "quantity":{{random.number(10)}},
+                "unity":"xícara",
+                "changeable":10
+            },
+            {
+                "key":10,
+                "name":"Adoçante",
+                "quantity":{{random.number(10)}},
+                "unity":"gotas",
+                "changeable":9
+            }
+        ]
+    }]
+}

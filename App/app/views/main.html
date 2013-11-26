@@ -1,6 +1,4 @@
-<h1>Main {{key}}</h1>
-<hr>
-<div ng-if="data.length===0">
+<div ng-if="data.length===0" class="hidden-xs hidden-sm">
     Carregando...
 </div>
 <div ch-subscribe="data.fail|errorMessage">
@@ -10,11 +8,11 @@
 </div>
 <div ch-subscribe="data.loaded|data">
     <ul class="list-group" ng-if="data.length!==0">
-        <li class="list-group-item active">Itens</li>
+        <li class="list-group-item active">Receitas {{key}}</li>
         <li ng-repeat="item in data | filter:key" class="list-group-item">
 
             <a href="#/item/{{item.key}}">{{item.name}}</a>
-            <a href="#/category/{{item.category}}" class="pull-right badge">
+            <a href="#/category/{{item.category}}" class="pull-right badge hidden-xs">
                 <small>{{item.category}}</small>
             </a>
         </li>

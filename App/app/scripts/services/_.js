@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('ngUnderscore', [])
+angular.module('underscore', [])
     .factory('_', function () {
         return window._;
     });

@@ -1,6 +1,22 @@
-<ul class="list-group">
-    <li ng-repeat="item in items" class="list-group-item">
-            <a href="#/item/{{item.key}}">{{item.name}} </a>
-            <a href="#/category/{{item.category}}" class="pull-right badge"><small>{{item.category}}</small></a>
-    </li>
-</ul>
+<h1>Main {{key}}</h1>
+<hr>
+<div ng-if="data.length===0">
+    Carregando...
+</div>
+<div ch-subscribe="data.fail|errorMessage">
+    <div class="alert alert-warning" ng-if="errorMessage">
+        {{errorMessage}}
+    </div>
+</div>
+<div ch-subscribe="data.loaded|data">
+    <ul class="list-group" ng-if="data.length!==0">
+        <li class="list-group-item active">Itens</li>
+        <li ng-repeat="item in data | filter:key" class="list-group-item">
+
+            <a href="#/item/{{item.key}}">{{item.name}}</a>
+            <a href="#/category/{{item.category}}" class="pull-right badge">
+                <small>{{item.category}}</small>
+            </a>
+        </li>
+    </ul>
+</div>

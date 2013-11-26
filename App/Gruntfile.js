@@ -296,39 +296,32 @@ module.exports = function (grunt) {
         }
     });
 
-    grunt.config('ipsum.changeset', {
-        dest:'app/data/changeset.json',
-        template:{
-            success:true,
-            message:null,
-            data:1733
-        }
-    });
     grunt.config('ipsum.data', {
-        dest:'app/data/data.json',
-        template : {
-            "success":true,
-            "message":null,
-            "data":
-                {
-                "key":"{%= _.uniqueId('r_') %}",
-                "name":"Limonada {%= ipsum.name %}",
-                "description":"{%= ipsum.catchPhrase %}",
-                "category":"{%= _(['simples', 'diet/light', 'drink/batida', 'alternativa']).shuffle()[0] %}",
-                "image":"{%= ipsum.placeKitten(600,600) %}",
-                "ingredients":
-                    {
-                        "key":'{%= _.uniqueId("i_") %}',
-                        "name":"{%= ipsum.firstName%}",
+        dest: 'app/data/data.json',
+        template: {
+            "success": true,
+            "message": null,
+            "data": {
+                "changeset":1,
+                "state": 0,
+                "content": {
+                    "key": "{%= _.uniqueId('r_') %}",
+                    "name": "Limonada {%= ipsum.name %}",
+                    "description": "{%= ipsum.catchPhrase %}",
+                    "category": "{%= _(['simples', 'diet', 'drink', 'alternativa']).shuffle()[0] %}",
+                    "image": "{%= ipsum.placeKitten(600,600) %}",
+                    "ingredients": {
+                        "key": '{%= _.uniqueId("i_") %}',
+                        "name": "{%= ipsum.firstName%}",
                         "quantity": '{%= _.random(1,10) %}',
-                        "unity":"{%= _(['gota', 'xícara', 'colher de chá', 'colher de sopa', 'mg', 'unidades']).shuffle()[0] %}"
+                        "unity": "{%= _(['gota', 'xícara', 'colher de chá', 'colher de sopa', 'mg', 'unidade']).shuffle()[0] %}"
                     }
-                
+                }
             }
         },
-        repetitions : {
-            "data" : [3,10],
-            "data.ingredients" : [1,6]
+        repetitions: {
+            "data.content": [3, 10],
+            "data.content.ingredients": [1, 6]
         }
     });
 
@@ -337,7 +330,7 @@ module.exports = function (grunt) {
     grunt.registerTask('server', function (target) {
         if (target === 'dist') {
             return grunt.task.run(['build', 'connect:dist:keepalive']);
-        }else{
+        } else {
             grunt.task.run(['ipsum'])
         }
 

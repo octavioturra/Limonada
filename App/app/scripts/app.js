@@ -5,7 +5,8 @@ angular.module('limonadaApp', [
   'ngResource',
   //'ngSanitize',
   'ngRoute',
-  'ngUnderscore'
+  'underscore',
+  'channelData'
 ])
     .config(function ($routeProvider) {
         $routeProvider
@@ -24,7 +25,10 @@ angular.module('limonadaApp', [
             .otherwise({
                 redirectTo: '/'
             });
-        
-    }).run(function (Datamon) {
-        Datamon.start(function (d) {});
+
+    })
+    .run(function (Datamon, _, chData) {
+        _.globals('DATA_URL', 'data/data.json');
+        chData.start(_.globals('DATA_URL'));
+        //Datamon.start(function (d) {});
     });

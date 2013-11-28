@@ -2,6 +2,8 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  width:100%;
+  overflow-x: hidden;
 }
 div.main-container{
     position:absolute;
@@ -10,8 +12,10 @@ div.main-container{
     right:0;
     bottom:0;
     margin: 0 auto;
-    width:auto;
+    width:100%;
     height:auto;
+    overflow-x:hidden;
+    
 }
 
 .btn,.form-control,.alert,.progress,.panel,.list-group,.well,.list-group-item:first-child {border-radius:1px;box-shadow:0 0 0;}
@@ -142,4 +146,13 @@ h3,h4,h5,.panel {
 }
 .snap-content{
     background:#fff;
+    margin-left:8px;
+    transition: margin-left 300ms linear;
+}
+.snapjs-left .snap-content
+{
+    margin-left:0;
+}
+.snapped{
+    margin-left:0;
 }

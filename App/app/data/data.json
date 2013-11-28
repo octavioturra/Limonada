@@ -7,506 +7,304 @@
 		"content": [
 			{
 				"key": "r_0",
-<<<<<<< HEAD
-				"name": "Limonada Miss Ashley Gleason",
-				"description": "Managed web-enabled infrastructure",
-				"category": "drink",
-=======
-				"name": "Limonada Gianni Langosh",
-				"description": "Implemented tangible workforce",
-				"category": "diet",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
+				"name": "Limonada Katarina Huels II",
+				"description": "Secured cohesive orchestration",
+				"category": "simples",
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
 						"key": "i_1",
-<<<<<<< HEAD
-						"name": "Abigail",
-						"quantity": "4",
-						"unity": "xícara"
+						"name": "Hannah",
+						"quantity": "10",
+						"unity": "colher de chá"
 					},
 					{
 						"key": "i_2",
-						"name": "Birdie",
-						"quantity": "2",
-						"unity": "mg"
-					},
-					{
-						"key": "i_3",
-						"name": "Fay",
-						"quantity": "1",
-=======
-						"name": "Stone",
-						"quantity": "9",
-						"unity": "gota"
-					},
-					{
-						"key": "i_2",
-						"name": "Hugh",
-						"quantity": "3",
-						"unity": "xícara"
-					},
-					{
-						"key": "i_3",
-						"name": "Jeff",
-						"quantity": "2",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"unity": "unidade"
+						"name": "Cassidy",
+						"quantity": "8",
+						"unity": "colher de chá"
 					}
 				]
 			},
 			{
-				"key": "r_4",
-<<<<<<< HEAD
-				"name": "Limonada Miss Avery Lindgren",
-				"description": "Pre-emptive tertiary synergy",
+				"key": "r_3",
+				"name": "Limonada Elinore Watsica",
+				"description": "Function-based motivating Graphical User Interface",
 				"category": "simples",
-=======
-				"name": "Limonada Dr. Ewald Willms",
-				"description": "Innovative upward-trending software",
-				"category": "diet",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
+						"key": "i_4",
+						"name": "Jaydon",
+						"quantity": "9",
+						"unity": "mg"
+					},
+					{
 						"key": "i_5",
-<<<<<<< HEAD
-						"name": "Maximo",
-=======
-						"name": "Natasha",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"quantity": "5",
-						"unity": "colher de sopa"
+						"name": "Thalia",
+						"quantity": "9",
+						"unity": "gota"
 					},
 					{
 						"key": "i_6",
-<<<<<<< HEAD
-						"name": "Rubye",
-						"quantity": "2",
-						"unity": "colher de sopa"
+						"name": "Michelle",
+						"quantity": "3",
+						"unity": "mg"
 					},
 					{
 						"key": "i_7",
-						"name": "Winston",
-						"quantity": "5",
-=======
-						"name": "Tyson",
+						"name": "Trey",
 						"quantity": "9",
+						"unity": "xícara"
+					},
+					{
+						"key": "i_8",
+						"name": "Travis",
+						"quantity": "5",
+						"unity": "mg"
+					}
+				]
+			},
+			{
+				"key": "r_9",
+				"name": "Limonada Randall Rosenbaum",
+				"description": "Cross-platform maximized forecast",
+				"category": "simples",
+				"image": "http://placekitten.com/600/600",
+				"ingredients": [
+					{
+						"key": "i_10",
+						"name": "Joanny",
+						"quantity": "5",
 						"unity": "colher de chá"
 					},
 					{
-						"key": "i_7",
-						"name": "Annie",
-						"quantity": "8",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
+						"key": "i_11",
+						"name": "Fredrick",
+						"quantity": "10",
 						"unity": "xícara"
-					}
-				]
-			},
-			{
-				"key": "r_8",
-				"name": "Limonada Tremaine Kassulke",
-				"description": "Proactive fresh-thinking capability",
-				"category": "diet",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-<<<<<<< HEAD
-						"key": "i_8",
-						"name": "Lisette",
-						"quantity": "9",
-						"unity": "colher de sopa"
 					},
-					{
-						"key": "i_9",
-						"name": "Alvena",
-						"quantity": "5",
-						"unity": "colher de sopa"
-					},
-					{
-						"key": "i_10",
-						"name": "Mylene",
-						"quantity": "3",
-=======
-						"key": "i_9",
-						"name": "Stella",
-						"quantity": "2",
-						"unity": "unidade"
-					},
-					{
-						"key": "i_10",
-						"name": "Hoyt",
-						"quantity": "5",
-						"unity": "xícara"
-					}
-				]
-			},
-			{
-				"key": "r_11",
-				"name": "Limonada Jedidiah Shields Jr.",
-				"description": "Automated real-time customer loyalty",
-				"category": "drink",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
 					{
 						"key": "i_12",
-						"name": "Murl",
-						"quantity": "8",
-						"unity": "unidade"
+						"name": "Crawford",
+						"quantity": "2",
+						"unity": "colher de chá"
 					},
 					{
 						"key": "i_13",
-						"name": "Carolanne",
-						"quantity": "6",
-						"unity": "unidade"
+						"name": "Alessandra",
+						"quantity": "4",
+						"unity": "colher de chá"
 					},
 					{
 						"key": "i_14",
-						"name": "Raoul",
-						"quantity": "10",
-						"unity": "colher de sopa"
+						"name": "Maye",
+						"quantity": "3",
+						"unity": "unidade"
 					},
 					{
 						"key": "i_15",
-						"name": "Kade",
-						"quantity": "3",
-						"unity": "colher de chá"
+						"name": "Dina",
+						"quantity": "5",
+						"unity": "gota"
 					}
 				]
 			},
 			{
 				"key": "r_16",
-				"name": "Limonada Nola O'Reilly",
-				"description": "Fully-configurable content-based core",
+				"name": "Limonada Michael Beer",
+				"description": "Reduced tangible installation",
 				"category": "simples",
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
 						"key": "i_17",
-						"name": "Delmer",
-						"quantity": "5",
-						"unity": "xícara"
-					},
-					{
-						"key": "i_18",
-						"name": "Jammie",
-						"quantity": "7",
-						"unity": "mg"
-					},
-					{
-						"key": "i_19",
-						"name": "Elza",
-						"quantity": "5",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"unity": "gota"
-					}
-				]
-			},
-			{
-<<<<<<< HEAD
-				"key": "r_11",
-				"name": "Limonada Sierra Simonis",
-				"description": "Versatile eco-centric data-warehouse",
-				"category": "diet",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-						"key": "i_12",
-						"name": "Collin",
-						"quantity": "7",
-						"unity": "mg"
-					},
-					{
-						"key": "i_13",
-						"name": "Tatyana",
-						"quantity": "3",
-						"unity": "colher de sopa"
-					},
-					{
-						"key": "i_14",
-						"name": "Hulda",
-						"quantity": "3",
-						"unity": "xícara"
-					},
-					{
-						"key": "i_15",
-						"name": "Edwina",
-						"quantity": "8",
-						"unity": "mg"
-=======
-				"key": "r_20",
-				"name": "Limonada Dr. Jose Vandervort",
-				"description": "Multi-channelled cohesive instruction set",
-				"category": "alternativa",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-						"key": "i_21",
-						"name": "Tate",
-						"quantity": "5",
-						"unity": "gota"
-					},
-					{
-						"key": "i_22",
-						"name": "Douglas",
-						"quantity": "8",
-						"unity": "gota"
-					},
-					{
-						"key": "i_23",
-						"name": "Amie",
-						"quantity": "1",
-						"unity": "xícara"
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-					}
-				]
-			},
-			{
-<<<<<<< HEAD
-				"key": "r_16",
-				"name": "Limonada Sigurd Wisozk",
-				"description": "Networked attitude-oriented array",
-				"category": "alternativa",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-						"key": "i_17",
-						"name": "Jasen",
-						"quantity": "1",
-						"unity": "gota"
-					},
-					{
-						"key": "i_18",
-						"name": "Julianne",
-						"quantity": "6",
-						"unity": "mg"
-					},
-					{
-						"key": "i_19",
-						"name": "Alan",
-						"quantity": "3",
+						"name": "Noelia",
+						"quantity": "9",
 						"unity": "unidade"
 					},
 					{
+						"key": "i_18",
+						"name": "Immanuel",
+						"quantity": "4",
+						"unity": "colher de sopa"
+					},
+					{
+						"key": "i_19",
+						"name": "Janiya",
+						"quantity": "4",
+						"unity": "mg"
+					},
+					{
 						"key": "i_20",
-						"name": "Art",
-						"quantity": "1",
-						"unity": "colher de chá"
+						"name": "Mafalda",
+						"quantity": "10",
+						"unity": "unidade"
 					},
 					{
 						"key": "i_21",
-						"name": "Ida",
-						"quantity": "9",
+						"name": "Elisabeth",
+						"quantity": "3",
 						"unity": "colher de sopa"
 					},
 					{
 						"key": "i_22",
-						"name": "Dewitt",
-						"quantity": "3",
+						"name": "Hertha",
+						"quantity": "2",
 						"unity": "colher de sopa"
-=======
-				"key": "r_24",
-				"name": "Limonada Adolph Leffler",
-				"description": "Horizontal discrete application",
-				"category": "diet",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-						"key": "i_25",
-						"name": "Dorris",
-						"quantity": "6",
-						"unity": "xícara"
-					},
-					{
-						"key": "i_26",
-						"name": "Blanca",
-						"quantity": "8",
-						"unity": "colher de chá"
-					},
-					{
-						"key": "i_27",
-						"name": "Brice",
-						"quantity": "9",
-						"unity": "colher de sopa"
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
 					}
 				]
 			},
 			{
-<<<<<<< HEAD
 				"key": "r_23",
-				"name": "Limonada Chance Hudson",
-				"description": "Inverse value-added flexibility",
-				"category": "drink",
+				"name": "Limonada Lucious Wilkinson",
+				"description": "Profit-focused client-server migration",
+				"category": "alternativa",
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
 						"key": "i_24",
-						"name": "Destiny",
-						"quantity": "6",
+						"name": "Kamille",
+						"quantity": "3",
 						"unity": "xícara"
 					},
 					{
 						"key": "i_25",
-						"name": "Lorna",
-						"quantity": "3",
-						"unity": "xícara"
+						"name": "Keshaun",
+						"quantity": "6",
+						"unity": "gota"
 					},
 					{
 						"key": "i_26",
-						"name": "Aisha",
-						"quantity": "2",
-=======
-				"key": "r_28",
-				"name": "Limonada Ada Predovic",
-				"description": "Reduced leading edge project",
+						"name": "Anthony",
+						"quantity": "10",
+						"unity": "colher de chá"
+					},
+					{
+						"key": "i_27",
+						"name": "Conrad",
+						"quantity": "1",
+						"unity": "mg"
+					},
+					{
+						"key": "i_28",
+						"name": "Gerhard",
+						"quantity": "4",
+						"unity": "colher de sopa"
+					},
+					{
+						"key": "i_29",
+						"name": "Verlie",
+						"quantity": "10",
+						"unity": "gota"
+					}
+				]
+			},
+			{
+				"key": "r_30",
+				"name": "Limonada Terrill Ward",
+				"description": "Centralized intangible array",
+				"category": "drink",
+				"image": "http://placekitten.com/600/600",
+				"ingredients": [
+					{
+						"key": "i_31",
+						"name": "Wiley",
+						"quantity": "9",
+						"unity": "xícara"
+					},
+					{
+						"key": "i_32",
+						"name": "Sonia",
+						"quantity": "5",
+						"unity": "colher de sopa"
+					},
+					{
+						"key": "i_33",
+						"name": "Lavina",
+						"quantity": "7",
+						"unity": "gota"
+					}
+				]
+			},
+			{
+				"key": "r_34",
+				"name": "Limonada Barbara Purdy",
+				"description": "Right-sized transitional superstructure",
 				"category": "alternativa",
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
-						"key": "i_29",
-						"name": "Paul",
-						"quantity": "10",
-						"unity": "colher de chá"
-					},
-					{
-						"key": "i_30",
-						"name": "Eula",
-						"quantity": "8",
-						"unity": "colher de chá"
-					},
-					{
-						"key": "i_31",
-						"name": "Monica",
-						"quantity": "7",
-						"unity": "mg"
-					},
-					{
-						"key": "i_32",
-						"name": "Sydni",
-						"quantity": "1",
-						"unity": "xícara"
-					},
-					{
-						"key": "i_33",
-						"name": "Hubert",
-						"quantity": "5",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"unity": "mg"
-					}
-				]
-			},
-			{
-<<<<<<< HEAD
-				"key": "r_27",
-				"name": "Limonada Georgianna Walsh III",
-				"description": "Enterprise-wide encompassing alliance",
-=======
-				"key": "r_34",
-				"name": "Limonada Shany Hessel",
-				"description": "User-friendly directional product",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-				"category": "diet",
-				"image": "http://placekitten.com/600/600",
-				"ingredients": [
-					{
-<<<<<<< HEAD
-						"key": "i_28",
-						"name": "Theodore",
-						"quantity": "3",
-						"unity": "gota"
-					},
-					{
-						"key": "i_29",
-						"name": "Eriberto",
-						"quantity": "6",
-=======
 						"key": "i_35",
-						"name": "Jordan",
-						"quantity": "3",
+						"name": "Lillian",
+						"quantity": "5",
 						"unity": "colher de sopa"
 					},
 					{
 						"key": "i_36",
-						"name": "Ciara",
-						"quantity": "2",
+						"name": "Mia",
+						"quantity": "8",
 						"unity": "colher de sopa"
 					},
 					{
 						"key": "i_37",
-						"name": "Ryan",
-						"quantity": "2",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"unity": "colher de chá"
+						"name": "Garrett",
+						"quantity": "4",
+						"unity": "mg"
 					}
 				]
 			},
 			{
-<<<<<<< HEAD
-				"key": "r_30",
-				"name": "Limonada Sterling Daugherty",
-				"description": "Proactive multimedia parallelism",
-=======
 				"key": "r_38",
-				"name": "Limonada Kellie Feeney",
-				"description": "Realigned multi-tasking customer loyalty",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-				"category": "diet",
+				"name": "Limonada Miss Virgil Williamson",
+				"description": "Stand-alone optimal circuit",
+				"category": "simples",
 				"image": "http://placekitten.com/600/600",
 				"ingredients": [
 					{
-<<<<<<< HEAD
-						"key": "i_31",
-						"name": "Aiden",
-						"quantity": "8",
-						"unity": "colher de chá"
-					},
-					{
-						"key": "i_32",
-						"name": "Aliza",
-=======
 						"key": "i_39",
-						"name": "Aric",
+						"name": "Madyson",
 						"quantity": "8",
-						"unity": "gota"
+						"unity": "unidade"
 					},
 					{
 						"key": "i_40",
-						"name": "Cordelia",
-						"quantity": "7",
+						"name": "Kasandra",
+						"quantity": "4",
 						"unity": "colher de chá"
 					},
 					{
 						"key": "i_41",
-						"name": "Reyes",
-						"quantity": "3",
-						"unity": "colher de chá"
-					},
-					{
-						"key": "i_42",
-						"name": "Jayde",
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
-						"quantity": "4",
-						"unity": "mg"
-					},
-					{
-<<<<<<< HEAD
-						"key": "i_33",
-						"name": "Agnes",
-						"quantity": "6",
-						"unity": "gota"
-=======
-						"key": "i_43",
-						"name": "Jordon",
+						"name": "Toy",
 						"quantity": "10",
 						"unity": "colher de chá"
 					},
 					{
-						"key": "i_44",
-						"name": "Connie",
+						"key": "i_42",
+						"name": "Caesar",
 						"quantity": "8",
-						"unity": "xícara"
->>>>>>> 4e7429c1debf4e0ab25836c94bb5126c57421398
+						"unity": "gota"
+					}
+				]
+			},
+			{
+				"key": "r_43",
+				"name": "Limonada Don Walter",
+				"description": "Profit-focused optimal task-force",
+				"category": "alternativa",
+				"image": "http://placekitten.com/600/600",
+				"ingredients": [
+					{
+						"key": "i_44",
+						"name": "Flo",
+						"quantity": "5",
+						"unity": "unidade"
+					},
+					{
+						"key": "i_45",
+						"name": "Gunner",
+						"quantity": "10",
+						"unity": "unidade"
 					}
 				]
 			}

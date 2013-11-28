@@ -15,6 +15,8 @@ angular.module('limonadaApp')
         });
         
         $scope.snapOpts = {
-          disable: 'right'
+          disable: 'right',
+          addBodyClasses : 'snapped',
+          minPosition :'8px'
         };
     });

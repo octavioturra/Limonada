@@ -43,3 +43,41 @@
     left: .1em;
     background-image: linear-gradient(45deg, transparent 48%, #5e5e5e 48.1%, #5e5e5e 55%, transparent 55.1%), linear-gradient(135deg, transparent 48%, #5e5e5e 48.1%, #5e5e5e 55%, transparent 55.1%),linear-gradient(90deg, transparent 48%, #5e5e5e 48.1%, #5e5e5e 55%, transparent 55.1%), linear-gradient(180deg, transparent 48%, #5e5e5e 48.1%, #5e5e5e 55%, transparent 55.1%)
 }
+
+.splashscreen{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background:#6DBE17;
+    z-index:100000;
+    top:0;
+    left:0;
+    text-align:center;
+    display:table-cell;
+    vertical-align:middle;
+    text-shadow: 0px 1px 0px rgba(255,255,255,0.5);
+    padding-top:2em;
+}
+.splashscreen:after{
+    content:"";
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    height:1.5em;
+    border-top:.5em black solid;
+    background-color:orange;
+    background-image: linear-gradient(90deg, black 0%, black 20%, red 20%, red 30%, orange 30%, orange 40%, yellow 40%, yellow 50%, green 50%, green 60%, cyan 60%, cyan 70%, blue 70%, blue 80%, purple 80%, purple 90%, magenta 90%);
+}
+.splashscreen h1{
+    font-variant: small-caps;
+    letter-spacing: .2em;
+}
+.splashscreen .biggest{
+    font-size:9em;
+    margin:0 auto;
+}
+.line-icon{
+    font-size:1.5em;
+    margin: 0 .5em;
+}

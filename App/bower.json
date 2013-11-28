@@ -11,10 +11,11 @@
     "angular-cookies": "~1.2.0",
     "angular-sanitize": "~1.2.0",
     "angular-route": "~1.2.0",
-    "underscore":"",
-    "pubsubjs":"",
-    "angular-touch":"",
-    "angular-animate":""
+    "underscore": "",
+    "pubsubjs": "",
+    "angular-touch": "",
+    "angular-animate": "",
+    "font-awesome": "~4.0.3"
   },
   "devDependencies": {
     "angular-mocks": "~1.2.0",

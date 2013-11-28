@@ -1,9 +1,18 @@
 /* Space out content a bit */
 body {
-  padding-top: 20px;
+  padding-top: 50px;
   padding-bottom: 20px;
 }
-
+div.main-container{
+    position:absolute;
+    top:50px;
+    left:0;
+    right:0;
+    bottom:0;
+    margin: 0 auto;
+    width:auto;
+    height:auto;
+}
 
 .btn,.form-control,.alert,.progress,.panel,.list-group,.well,.list-group-item:first-child {border-radius:1px;box-shadow:0 0 0;}
 .btn {border-color:transparent;}
@@ -124,4 +133,13 @@ h3,h4,h5,.panel {
         border-radius:100%;
         max-width:50% !Important;
     }
+}
+#content {
+    box-shadow: 0 0 20px #888;
+}
+.snap-drawer-left{
+    background:#ccc;
+}
+.snap-content{
+    background:#fff;
 }

@@ -1,12 +1,15 @@
 'use strict';
 
 angular.module('limonadaApp', [
-  //'ngCookies',
-  'ngResource',
-  //'ngSanitize',
-  'ngRoute',
-  'underscore',
-  'channelData'
+    //'ngCookies',
+    'ngResource',
+    //'ngSanitize',
+    'ngRoute',
+    'ngTouch',
+    'ngAnimate',
+    'underscore',
+    'channelData',
+    'snap'
 ])
     .config(function ($routeProvider) {
         $routeProvider
@@ -32,3 +35,9 @@ angular.module('limonadaApp', [
         chData.start(_.globals('DATA_URL'));
         //Datamon.start(function (d) {});
     });
+
+window.addEventListener('load', function () {
+    _.publish('app.ready', {
+        loaded: true
+    });
+})

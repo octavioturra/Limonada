@@ -16,6 +16,9 @@
 
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/bootstrap_l.css">
+    <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="bower_components/snapjs/snap.css">
+    <link rel="stylesheet" href="bower_components/angular-snap/angular-snap.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/lemon.css">
     <!-- endbuild -->
@@ -31,6 +34,32 @@
       <script src="bower_components/json3/lib/json3.min.js"></script>
     <![endif]-->
 
+    <div ch-subscribe="app.ready">
+        <div class="splashscreen" ng-hide="!!data.loaded===true">
+            <span class="biggest">
+                <i class="fa fa-lemon-o"></i>
+            </span>
+            <br>
+            <span class="line-icon">
+                <i class="fa fa-flask"></i>
+            </span>
+            <span class="line-icon">
+                <i class="fa fa-male"></i>
+            </span>
+            <span class="line-icon">
+                <i class="fa fa-glass"></i>
+            </span>
+            <span class="line-icon">
+                <i class="fa fa-asterisk"></i>
+            </span>
+            <br>
+            <h1>Limonada
+                <sup>&hearts;</sup>
+            </h1>
+        </div>
+    </div>
+
+
     <!-- Add your site or application content here -->
     <header class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavbarCtrl">
         <div class="navbar-header">
@@ -45,22 +74,32 @@
         <div class="collapse navbar-collapse" id="header-bar">
             <ul class="nav navbar-nav  pull-right hidden-xs">
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Categorias  <b class="caret"></b></a>
+                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Categorias
+                        <b class="caret"></b>
+                    </a>
                     <ul class="dropdown-menu">
-                        <li><a href="#/">todos</a></li>
-                        <li ng-repeat="category in categories"><a href="#/category/{{category}}">{{category}}</a></li>
+                        <li>
+                            <a href="#/">todos</a>
+                        </li>
+                        <li ng-repeat="category in categories">
+                            <a href="#/category/{{category}}">{{category}}</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
             <ul class="nav navbar-nav visible-xs">
-                <li><a href="#/">todos</a></li>
-                <li ng-repeat="category in categories"><a href="#/category/{{category}}">{{category}}</a></li>
+                <li>
+                    <a href="#/">todos</a>
+                </li>
+                <li ng-repeat="category in categories">
+                    <a href="#/category/{{category}}">{{category}}</a>
+                </li>
             </ul>
         </div>
     </header>
     <br>
     <br>
-    <div class="container" ng-view=""></div>
+    <div class="main-container" ng-view=""></div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -105,6 +144,10 @@
     <script src="bower_components/angular-cookies/angular-cookies.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="bower_components/angular-animate/angular-animate.js"></script>
+    <script src="bower_components/angular-touch/angular-touch.js"></script>
+    <script src="bower_components/snapjs/snap.js"></script>
+    <script src="bower_components/angular-snap/angular-snap.js"></script>
     <!-- endbuild -->
 
     <!-- build:js scripts/utils.js -->

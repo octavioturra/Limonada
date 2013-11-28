@@ -1,20 +1,33 @@
-<div ng-if="data.length===0" class="hidden-xs hidden-sm">
-    Carregando...
-</div>
-<div ch-subscribe="data.fail|errorMessage">
-    <div class="alert alert-warning" ng-if="errorMessage">
-        {{errorMessage}}
-    </div>
-</div>
-<div ch-subscribe="data.loaded|data">
-    <ul class="list-group" ng-if="data.length!==0">
-        <li class="list-group-item active">Receitas {{key}}</li>
-        <li ng-repeat="item in data | filter:key" class="list-group-item">
-
-            <a href="#/item/{{item.key}}">{{item.name}}</a>
-            <a href="#/category/{{item.category}}" class="pull-right badge hidden-xs">
-                <small>{{item.category}}</small>
-            </a>
+<div snap-drawer>
+    <ul class="list-group">
+        <li class="list-group-item active">Categorias</li>
+        <li class="list-group-item">
+            <a href="#/">todos</a>
+        </li>
+        <li ng-repeat="category in categories" class="list-group-item">
+            <a href="#/category/{{category}}">{{category}}</a>
         </li>
     </ul>
+</div>
+<div snap-content snap-options="snapOpts" id="content">
+    <div ng-if="data.length===0" class="hidden-xs hidden-sm">
+        Carregando...
+    </div>
+    <div ch-subscribe="data.fail|errorMessage">
+        <div class="alert alert-warning" ng-if="errorMessage">
+            {{errorMessage}}
+        </div>
+    </div>
+    <div ch-subscribe="data.loaded|data">
+        <ul class="list-group" ng-if="data.length!==0">
+            <li class="list-group-item active">Receitas {{key}}</li>
+            <li ng-repeat="item in data | filter:key" class="list-group-item">
+
+                <a href="#/item/{{item.key}}">{{item.name}}</a>
+                <a href="#/category/{{item.category}}" class="pull-right badge hidden-xs">
+                    <small>{{item.category}}</small>
+                </a>
+            </li>
+        </ul>
+    </div>
 </div>

@@ -61,45 +61,48 @@
 
 
     <!-- Add your site or application content here -->
-    <header class="navbar navbar-default navbar-fixed-top" role="navigation" ng-controller="NavbarCtrl">
+    <header class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavbarCtrl">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#header-bar">
+            <button type="button" class="navbar-toggle" snap-toggle="left">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="brand navbar-brand"></a>
+            <a href="/" class="navbar-brand">
+                <span class="fa fa-lemon-o"></span>
+                &nbsp; Limonada
+            </a>
         </div>
-        <div class="collapse navbar-collapse" id="header-bar">
+        <div id="header-bar">
             <ul class="nav navbar-nav  pull-right hidden-xs">
                 <li class="dropdown">
-                    <a href="" class="dropdown-toggle" data-toggle="dropdown">Categorias
-                        <b class="caret"></b>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#/">todos</a>
-                        </li>
-                        <li ng-repeat="category in categories">
-                            <a href="#/category/{{category}}">{{category}}</a>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-            <ul class="nav navbar-nav visible-xs">
-                <li>
-                    <a href="#/">todos</a>
-                </li>
-                <li ng-repeat="category in categories">
-                    <a href="#/category/{{category}}">{{category}}</a>
+                    <a href="" snap-toggle="left">Menu</a>
                 </li>
             </ul>
         </div>
     </header>
     <br>
     <br>
-    <div class="main-container" ng-view=""></div>
+    <div class="main-container">
+        <div snap-drawer>
+            <div ng-controller="CategoryCtrl">
+                <ul class="list-group">
+                    <li class="list-group-item active">Categorias</li>
+                    <li class="list-group-item">
+                        <a href="#/">todos</a>
+                    </li>
+                    <li ng-repeat="category in categories" class="list-group-item">
+                        <a href="#/category/{{category}}">{{category}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div snap-content snap-options="snapOpts" id="content">
+            <div ng-view=""></div>
+        </div>
+    </div>
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
     <script>
@@ -138,6 +141,8 @@
     <script src="bower_components/underscore/underscore-min.js"></script>
     <script src="bower_components/pubsubjs/pubsub.js"></script>
     <!-- endbuild -->
+
+    <script src="phonegap.js"></script>
 
     <!-- build:js scripts/modules.js -->
     <script src="bower_components/angular-resource/angular-resource.js"></script>

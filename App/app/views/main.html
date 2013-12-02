@@ -1,15 +1,5 @@
-<div snap-drawer>
-    <ul class="list-group">
-        <li class="list-group-item active">Categorias</li>
-        <li class="list-group-item">
-            <a href="#/">todos</a>
-        </li>
-        <li ng-repeat="category in categories" class="list-group-item">
-            <a href="#/category/{{category}}">{{category}}</a>
-        </li>
-    </ul>
-</div>
-<div snap-content snap-options="snapOpts" id="content">
+
+
     <div ng-if="data.length===0" class="hidden-xs hidden-sm">
         Carregando...
     </div>
@@ -30,4 +20,3 @@
             </li>
         </ul>
     </div>
-</div>

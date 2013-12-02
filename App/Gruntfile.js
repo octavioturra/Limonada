@@ -315,13 +315,18 @@ module.exports = function (grunt) {
                         "name": "{%= ipsum.firstName%}",
                         "quantity": '{%= _.random(1,10) %}',
                         "unity": "{%= _(['gota', 'xícara', 'colher de chá', 'colher de sopa', 'mg', 'unidade']).shuffle()[0] %}"
+                    },
+                    "steps":{
+                        "order":'{%= _.uniqueId("s_") %}',
+                        "description":"{%= ipsum.catchPhrase %}"
                     }
                 }
             }
         },
         repetitions: {
             "data.content": [3, 10],
-            "data.content.ingredients": [1, 6]
+            "data.content.ingredients": [1, 6],
+            "data.content.steps": [1, 10]
         }
     });
 

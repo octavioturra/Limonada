@@ -36,7 +36,9 @@ angular.module('limonadaApp', [
         //Datamon.start(function (d) {});
     });
 
-window.addEventListener('load', function () {
+var eventName = (!!window.device==true)?'deviceready':'load'
+
+window.addEventListener(eventName, function () {
     _.publish('app.ready', {
         loaded: true
     });

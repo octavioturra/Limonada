@@ -6,12 +6,13 @@
         <h4>
             {{item.name}}
             <small class="pull-right hidden-xs">
-            Categoria:
-            <a href="#/category/{{item.category}}">{{item.category}}</a>
-        </small>
+                Categoria:
+                <a href="#/category/{{item.category}}">{{item.category}}</a>
+            </small>
         </h4>
         <h5 class="visible-xs">
-            Categoria: <a href="#/category/{{item.category}}">{{item.category}}</a>
+            Categoria:
+            <a href="#/category/{{item.category}}">{{item.category}}</a>
         </h5>
     </div>
     <div class="panel-body">
@@ -23,10 +24,11 @@
             </li>
             <li ng-repeat="ingredient in item.ingredients" class="list-group-item">
                 <small>{{ingredient.quantity}} {{ingredient.unity}} de</small>&nbsp;{{ingredient.name}}</li>
-        </ul>
-        <ul class="list-group">
             <li class="list-group-item active">
                 Modo de preparo:
+            </li>
+            <li ng-repeat="step in item.steps" class="list-group-item">
+                <small>{{$index + 1}}&deg; - {{step.description}}</small>
             </li>
         </ul>
     </div>

@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('limonadaApp')
-    .controller('NavbarCtrl', function ($scope, Datamon) {
+    .controller('NavbarCtrl', function ($scope) {
         $scope.categories = [];
         _.subscribe('data.loaded', function(key, d){
             if(d===null){

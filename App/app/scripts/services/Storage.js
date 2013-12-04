@@ -7,7 +7,7 @@ angular.module('limonadaApp')
             if(!!item===true){
                 return JSON.parse(item);    
             }
-            throw new Error('Item ' + key + ' not found.')
+            throw new Error('Item ' + key + ' not found.');
             
         };
         this.set = function(key, value){

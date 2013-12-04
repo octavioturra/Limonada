@@ -55,9 +55,9 @@ module.exports = function (grunt) {
         },
         connect: {
             options: {
-                port: (process)?process.env.PORT:3000,
+                port: (process) ? process.env.PORT : 3000,
                 // Change this to '0.0.0.0' to access the server from outside.
-                hostname: (process.env.IP)?process.env.IP:'127.0.0.1',
+                hostname: (process.env.IP) ? process.env.IP : '127.0.0.1',
                 livereload: 35729
             },
             livereload: {
@@ -229,7 +229,8 @@ module.exports = function (grunt) {
             '.htaccess',
             'bower_components/**/*',
             'images/{,*/}*.{gif,webp}',
-            'fonts/*'
+            'fonts/*',
+            'data/data.json'
           ]
         }, {
                     expand: true,
@@ -302,7 +303,7 @@ module.exports = function (grunt) {
             "success": true,
             "message": null,
             "data": {
-                "changeset":1,
+                "changeset": 1,
                 "state": 0,
                 "content": {
                     "key": "{%= _.uniqueId('r_') %}",
@@ -316,9 +317,9 @@ module.exports = function (grunt) {
                         "quantity": '{%= _.random(1,10) %}',
                         "unity": "{%= _(['gota', 'xícara', 'colher de chá', 'colher de sopa', 'mg', 'unidade']).shuffle()[0] %}"
                     },
-                    "steps":{
-                        "order":'{%= _.uniqueId("s_") %}',
-                        "description":"{%= ipsum.catchPhrase %}"
+                    "steps": {
+                        "order": '{%= _.uniqueId("s_") %}',
+                        "description": "{%= ipsum.catchPhrase %}"
                     }
                 }
             }
@@ -364,7 +365,7 @@ module.exports = function (grunt) {
     'concat',
     'ngmin',
     'copy:dist',
-    'cdnify',
+    //'cdnify',
     'cssmin',
     'uglify',
     'rev',

@@ -5,7 +5,7 @@ angular.module('channelData')
         var URL, OD = 0,
             UD = 1;
 
-        function ChannelData() {}
+        function ChannelData() {};
 
         ChannelData.prototype.start = function (url) {
             URL = url;

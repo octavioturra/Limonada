@@ -30,16 +30,15 @@ angular.module('limonadaApp', [
             });
 
     })
-    .run(function (Datamon, _, chData) {
+    .run(function (_, chData) {
         _.globals('DATA_URL', 'data/data.json');
         chData.start(_.globals('DATA_URL'));
-        //Datamon.start(function (d) {});
     });
 
-var eventName = (!!window.device==true)?'deviceready':'load'
+var eventName = (!!window.device==true)?'deviceready':'load';
 
 window.addEventListener(eventName, function () {
     _.publish('app.ready', {
         loaded: true
     });
-})
+});

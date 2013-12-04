@@ -72,15 +72,18 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand">
-                <span class="fa fa-lemon-o"></span>
+            <a href="#/" class="navbar-brand">
+                <strong><span class="fa fa-lemon-o"></span></strong>
                 &nbsp; Limonada
             </a>
         </div>
         <div id="header-bar">
             <ul class="nav navbar-nav  pull-right hidden-xs">
                 <li class="dropdown">
-                    <a href="" snap-toggle="left">Menu</a>
+                    <a href="javascript:void()" snap-toggle="left">
+						<span class="fa fa-bars"></span>&nbsp;
+						Menu
+					</a>
                 </li>
             </ul>
         </div>
@@ -91,18 +94,21 @@
         <div snap-drawer>
             <div ng-controller="CategoryCtrl">
                 <ul class="list-group">
-                    <li class="list-group-item active">Categorias</li>
-                    <li class="list-group-item">
-                        <a href="#/">todos</a>
+                    <li class="list-group-item active"><span class="fa fa-tags"></span>&nbsp;Categorias</li>
+                    <li class="list-group-item categories">
+                        <a href="#/"><span class="fa fa-globe"></span>&nbsp;todos</a>
                     </li>
-                    <li ng-repeat="category in categories" class="list-group-item">
-                        <a href="#/category/{{category}}">{{category}}</a>
+                    <li ng-repeat="category in categories" class="list-group-item categories">
+                        <a href="#/category/{{category}}"><span class="fa fa-tag"></span>&nbsp;{{category}}</a>
                     </li>
+					<li class="list-group-item active"></li>
+					<li class="list-group-item">
+						<a href="#/about"><span class="fa fa-info-circle"></span>&nbsp;Sobre</a>
+					</li>
                 </ul>
             </div>
         </div>
-        <div snap-content snap-options="snapOpts" id="content">
-            <div ng-view=""></div>
+        <div snap-content snap-options="snapOpts" id="content" ng-view="">
         </div>
     </div>
 
@@ -182,6 +188,7 @@
     <script src="scripts/controllers/Item.js"></script>
     <script src="scripts/controllers/Navbar.js"></script>
     <script src="scripts/controllers/container.js"></script>
+    <script src="scripts/controllers/about.js"></script>
     <!-- endbuild -->
 </body>
 

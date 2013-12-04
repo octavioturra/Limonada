@@ -25,6 +25,10 @@ angular.module('limonadaApp', [
                 templateUrl: 'views/Item.html',
                 controller: 'ItemCtrl'
             })
+            .when('/about', {
+              templateUrl: 'views/about.html',
+              controller: 'AboutCtrl'
+            })
             .otherwise({
                 redirectTo: '/'
             });
@@ -35,9 +39,7 @@ angular.module('limonadaApp', [
         chData.start(_.globals('DATA_URL'));
     });
 
-var eventName = (!!window.device==true)?'deviceready':'load';
-
-window.addEventListener(eventName, function () {
+window.addEventListener('load', function () {
     _.publish('app.ready', {
         loaded: true
     });

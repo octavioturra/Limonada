@@ -294,6 +294,16 @@ module.exports = function (grunt) {
           ]
                 }
             }
+        },
+        uncss: {
+            dist: {
+                files: {
+                    'app/styles/bootstrap.rem.css': ['app/index.html', 'app/views/about.html', 'app/views/main.html', 'app/views/item.html']
+                },
+                options: {
+                    compress: true
+                }
+            }
         }
     });
 
@@ -332,6 +342,7 @@ module.exports = function (grunt) {
     });
 
     grunt.loadNpmTasks('grunt-ipsum');
+    grunt.loadNpmTasks('grunt-uncss');
 
     grunt.registerTask('server', function (target) {
         if (target === 'dist') {
@@ -341,6 +352,7 @@ module.exports = function (grunt) {
         }
 
         grunt.task.run([
+            'uncss',
       'clean:server',
       'concurrent:server',
       'autoprefixer',
@@ -366,6 +378,7 @@ module.exports = function (grunt) {
     'ngmin',
     'copy:dist',
     //'cdnify',
+    'uncss',
     'cssmin',
     'uglify',
     'rev',

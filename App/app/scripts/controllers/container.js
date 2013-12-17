@@ -5,6 +5,6 @@ angular.module('limonadaApp')
         $scope.snapOpts = {
             disable: 'right',
             addBodyClasses: true,
-			 flickThreshold: 20
+			 flickThreshold: 10
         };
     });

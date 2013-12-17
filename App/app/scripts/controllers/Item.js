@@ -8,7 +8,6 @@ angular.module('limonadaApp')
         _.subscribe('data.loaded', function(label, data){
             var item = _(data).findWhere({'key': key});
             $scope.item = item;
-            console.log(key, item);
             $scope.$digest();
         });
     });

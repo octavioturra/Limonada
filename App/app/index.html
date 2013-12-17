@@ -14,8 +14,11 @@
     <meta name="viewport" content="width=device-width">
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
+    <!-- build:css styles/bootstrap.rem.css -->
+    <link rel="stylesheet" href="styles/bootstrap_l_3.css">
+    <!-- endbuild -->
+    
     <!-- build:css styles/rsc.css-->
-    <link rel="stylesheet" href="styles/bootstrap_l.css">
     <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="bower_components/snapjs/snap.css">
     <link rel="stylesheet" href="bower_components/angular-snap/angular-snap.css">
@@ -27,16 +30,7 @@
     <!-- endbuild -->
 </head>
 
-<body ng-app="limonadaApp">
-    <!--[if lt IE 7]>
-      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-
-    <!--[if lt IE 9]>
-      <script src="bower_components/es5-shim/es5-shim.js"></script>
-      <script src="bower_components/json3/lib/json3.min.js"></script>
-    <![endif]-->
-
+<body ng-app="limonadaApp" ng-controller="ContainerCtrl">
     <div ch-subscribe="app.ready">
         <div class="splashscreen" ng-hide="!!data.loaded===true">
             <span class="biggest">
@@ -66,12 +60,9 @@
     <!-- Add your site or application content here -->
     <header class="navbar navbar-inverse navbar-fixed-top" role="navigation" ng-controller="NavbarCtrl">
         <div class="navbar-header">
-            <button type="button" class="navbar-toggle" snap-toggle="left">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+            <a class="navbar-toggle" snap-toggle="left" href="javascript:void(0)">
+                <span class="fa fa-bars"></span>
+            </a>
             <a href="#/" class="navbar-brand">
                 <strong><span class="fa fa-lemon-o"></span></strong>
                 &nbsp; Limonada
@@ -80,7 +71,7 @@
         <div id="header-bar">
             <ul class="nav navbar-nav  pull-right hidden-xs">
                 <li class="dropdown">
-                    <a href="javascript:void()" snap-toggle="left">
+                    <a href="javascript:void(0)" snap-toggle="left">
 						<span class="fa fa-bars"></span>&nbsp;
 						Menu
 					</a>
@@ -90,7 +81,7 @@
     </header>
     <br>
     <br>
-    <div class="main-container" ng-controller="ContainerCtrl">
+    <div class="main-container">
         <div snap-drawer>
             <div ng-controller="CategoryCtrl">
                 <ul class="list-group">
@@ -142,23 +133,22 @@
     <script src="bower_components/sass-bootstrap/js/affix.js"></script>
     <script src="bower_components/sass-bootstrap/js/alert.js"></script>
     <script src="bower_components/sass-bootstrap/js/button.js"></script>
-    <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
+    <!--script src="bower_components/sass-bootstrap/js/carousel.js"></script-->
     <script src="bower_components/sass-bootstrap/js/transition.js"></script>
     <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
     <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
     <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-    <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-    <script src="bower_components/sass-bootstrap/js/tab.js"></script>
-    <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-    <script src="bower_components/sass-bootstrap/js/popover.js"></script>
-    <script src="bower_components/pubsubjs/pubsub.js"></script>
+    <!--script src="bower_components/sass-bootstrap/js/scrollspy.js"></script-->
+    <!--script src="bower_components/sass-bootstrap/js/tab.js"></script-->
+    <!--script src="bower_components/sass-bootstrap/js/tooltip.js"></script-->
+    <!--script src="bower_components/sass-bootstrap/js/popover.js"></script-->
     <!-- endbuild -->
 
 
     <!-- build:js scripts/modules.js -->
-    <script src="bower_components/angular-resource/angular-resource.js"></script>
-    <script src="bower_components/angular-cookies/angular-cookies.js"></script>
-    <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+    <!--script src="bower_components/angular-resource/angular-resource.js"></script-->
+    <!--script src="bower_components/angular-cookies/angular-cookies.js"></script-->
+    <!--script src="bower_components/angular-sanitize/angular-sanitize.js"></script-->
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-animate/angular-animate.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
@@ -167,6 +157,7 @@
 
 
     <!-- build:js scripts/utils.js -->
+    <script src="bower_components/pubsubjs/pubsub.js"></script>
     <script src="scripts/utils/underscore.global.js"></script>
     <script src="scripts/utils/underscore.pubsub.js"></script>
     <script src="scripts/utils/underscore.storage.js"></script>

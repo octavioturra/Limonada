@@ -2,7 +2,7 @@
 
 angular.module('limonadaApp', [
     //'ngCookies',
-    'ngResource',
+    //'ngResource',
     //'ngSanitize',
     'ngRoute',
     'ngTouch',
